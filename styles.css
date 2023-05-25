@@ -3,6 +3,14 @@ body {
     background-color: aliceblue;
 }
 
+ul {
+    margin:0;
+    padding:0;
+    gap: 200px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
 .Title {
     padding: 10px;
     font-size: 20px;
@@ -15,7 +23,12 @@ body {
     background-color: blueviolet;
 }
 
-.Content {
-    padding:5px;
-    margin:-10;
+.Content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Recipes {
+    display: flex;
 }
