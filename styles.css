@@ -1,0 +1,21 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: aliceblue;
+}
+
+.Title {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-align:center;
+}
+
+.Header {
+    margin:-10px;
+    background-color: blueviolet;
+}
+
+.Content {
+    padding:5px;
+    margin:-10;
+}
